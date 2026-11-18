@@ -141,45 +141,11 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-14">
            {/* Logo */}
-           <a href="#home" className="flex items-center gap-2 group">
-             <div className="relative w-10 h-10 rounded-xl overflow-hidden flex items-center justify-center group">
-               {/* Outer glow border effect */}
-               <div className="absolute inset-0 rounded-xl p-[1px] bg-gradient-to-r from-[#7928CA] via-[#FF0080] to-[#00FF88] bg-[length:200%_200%] animate-gradient-shift">
-                 <div className="h-full w-full bg-[#1A1B26] rounded-[10px]" />
+           <a href="#home" className="flex items-center gap-3 group">
+              <img src="/johnson-marks-logo.jpg" alt="JOHNSON MARKS CCs Site logo" className="w-10 h-10 rounded-lg group-hover:scale-110 transition-transform duration-200" />
+               <div className="hidden sm:block">
+                 <span className="text-green-500 font-bold tracking-wider font-mono text-xl">JOHNSON MARKS CCs Site</span>
                </div>
-               
-               {/* Inner neon background */}
-               <div className="absolute inset-[2px] rounded-lg bg-gradient-to-br from-[#7928CA]/15 via-[#16161E] to-[#FF0080]/15" />
-               
-               {/* Rotating aura */}
-               <div className="absolute inset-0 bg-gradient-to-br from-[#7928CA]/30 via-transparent to-[#FF0080]/30 animate-spin-slow opacity-40 rounded-lg" />
-               
-               {/* Casino spinning card animation */}
-               <div className="relative z-10 scale-75 w-8 h-5">
-                 {/* Spinning 3D cards casino style */}
-                 <div className="absolute w-8 h-5 bg-gradient-to-br from-[#7928CA] to-[#5A1EA0] border border-[#9D4EDD]/80 rounded shadow-xl shadow-[#7928CA]/40 animate-spin-card1" style={{ transformOrigin: 'center' }} />
-                 <div className="absolute w-8 h-5 bg-gradient-to-br from-[#FF0080] to-[#C70068] border border-[#FF69B4]/80 rounded shadow-xl shadow-[#FF0080]/40 animate-spin-card2" style={{ transformOrigin: 'center' }} />
-                 <div className="absolute w-8 h-5 bg-gradient-to-br from-[#00FF88] to-[#00C26B] border border-[#52FFA8]/80 rounded shadow-xl shadow-[#00FF88]/40 animate-spin-card3" style={{ transformOrigin: 'center' }} />
-                 <div className="absolute w-8 h-5 bg-gradient-to-br from-[#FFD700] to-[#FF8C00] border border-[#FFD700]/80 rounded shadow-xl shadow-[#FFD700]/40 animate-spin-card4" style={{ transformOrigin: 'center' }} />
-                 {/* Center gold chip */}
-                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-gradient-to-br from-white to-[#FFD700] rounded-full shadow-xl animate-pulse-glow" />
-               </div>
-             </div>
-              <div className="hidden sm:block">
-                <span className="text-green-500 font-bold tracking-wider font-mono">
-                  <span className="text-red-500">C</span>
-                  <span className="text-orange-500">4</span>
-                  <span className="text-yellow-500">R</span>
-                  <span className="text-green-500">D</span>
-                  <span className="text-cyan-500">_</span>
-                  <span className="text-blue-500">V</span>
-                  <span className="text-purple-500">4</span>
-                  <span className="text-pink-500">U</span>
-                  <span className="text-red-500">L</span>
-                  <span className="text-orange-500">T</span>
-                </span>
-                <span className="text-green-700 text-xs ml-2 font-mono">[v2.0]</span>
-              </div>
            </a>
 
            {/* Desktop Navigation */}
