@@ -19,7 +19,7 @@ export function Footer() {
       { name: 'privacy', href: '#privacy' },
     ],
     social: [
-      { name: 'telegram', icon: MessageCircle, href: 'https://t.me/cardvaultstore' },
+      { name: 'telegram', icon: MessageCircle, href: 'https://t.me/Johnsonmark_a' },
       { name: 'twitter', icon: Twitter, href: '#' },
       { name: 'email', icon: Mail, href: '#' },
     ],

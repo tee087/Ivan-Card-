@@ -30,7 +30,7 @@ export function Contact() {
     // Open Telegram with the message
     const telegramMsg = `*New Message from Card Vault*\n\n*Name:* ${formData.name}\n${formData.email ? `*Telegram:* ${formData.email}\n` : ''}\n*Message:* ${formData.message}`;
     const encodedMsg = encodeURIComponent(telegramMsg);
-    window.open(`https://t.me/cardvaultstore?text=${encodedMsg}`, '_blank');
+    window.open(`https://t.me/Johnsonmark_a?text=${encodedMsg}`, '_blank');
     setShowDialog(true);
     setFormData({ name: '', email: '', message: '' });
   };
@@ -39,8 +39,8 @@ export function Contact() {
     {
       icon: MessageCircle,
       title: 'telegram',
-      value: '@cardvaultstore',
-      href: 'https://t.me/cardvaultstore',
+      value: '@Johnsonmark_a',
+      href: 'https://t.me/Johnsonmark_a',
     },
   ];
 
